@@ -3,7 +3,9 @@ package com.airport.dashboard.enums;
 public enum EntityType {
 
     AIRPORT("Airport"),
-    AOM("AOM");
+    AOM("AOM"),
+    PROCEDURE("Procedure"),
+    RUNWAY("Runway");
 
     private final String value;
 
